@@ -1,10 +1,10 @@
 public void settings() {
-  size(400,400);
+  size(600,600);
 }
 
 public void setup() {
   ellipseMode(CENTER); 
-  myFractal(200,200,300);
+  myFractal(300,300,300);
 }
 
 public void myFractal(int x, int y, int siz) {
