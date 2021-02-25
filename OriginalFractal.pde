@@ -3,9 +3,14 @@ public void settings() {
 }
 
 public void setup() {
-
-  myFractal(300,300,300);
+  ellipseMode(CENTER); 
+  
 }
+
+public void draw()  
+{   
+  myFractal(300,300,300);
+}  
 
 public void myFractal(int x, int y, int siz) {
  fill((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
