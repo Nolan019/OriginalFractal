@@ -3,7 +3,7 @@ public void settings() {
 }
 
 public void setup() {
-  ellipseMode(CENTER); 
+
   myFractal(300,300,300);
 }
 
