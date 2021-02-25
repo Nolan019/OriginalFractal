@@ -1,10 +1,6 @@
-public void settings() {
-  size(600,600);
-}
-
 public void setup() {
   ellipseMode(CENTER); 
-  
+  size(600,600);
 }
 
 public void draw()  
